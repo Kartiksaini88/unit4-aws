@@ -32,10 +32,10 @@ app.use("/watch",watchrouter)
 app.use("/brand",BrandRouter)
 
 
-app.listen(3000,async()=>{
+app.listen(5000,async()=>{
       try {
           await connect()
-          console.log("This is port 3000 yo")
+          console.log("This is port 5000 yo")
       } catch (error) {
           console.log(error)
       }
