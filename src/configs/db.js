@@ -1,5 +1,5 @@
 let mongoose =require("mongoose")
 
 module.exports = ()=>{
-    mongoose.connect("mongodb://127.0.0.1:27017/KartikUnit4")
+    mongoose.connect("mongodb+srv://Kartik:1234@kartik.exjuu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 }
