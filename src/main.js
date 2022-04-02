@@ -35,7 +35,7 @@ app.use("/brand",BrandRouter)
 app.listen(5000,async()=>{
       try {
           await connect()
-          console.log("This is port 5000")
+          console.log("This is port 5000 yo")
       } catch (error) {
           console.log(error)
       }
