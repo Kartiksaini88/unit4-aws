@@ -7,18 +7,18 @@ app.use(cors())
 app.use(express.json())
 
 
-let connect = require("./src/configs/db")
+let connect = require("./configs/db")
 
 
-let MenRouter = require("./src/controller/mencont")
-let WomenRouter = require("./src/controller/womencont")
-let kidRouter = require("./src/controller/kidscont")
-let homestopRouter = require("./src/controller/homestopcont")
-let GiftRouter = require("./src/controller/giftcont")
-let beautyRouter = require("./src/controller/beautycont")
-let luxeRouter = require("./src/controller/luxecont")
-let watchrouter = require("./src/controller/watchcont")
-let BrandRouter = require("./src/controller/brandcont")
+let MenRouter = require("./controller/mencont")
+let WomenRouter = require("./controller/womencont")
+let kidRouter = require("./controller/kidscont")
+let homestopRouter = require("./controller/homestopcont")
+let GiftRouter = require("./controller/giftcont")
+let beautyRouter = require("./controller/beautycont")
+let luxeRouter = require("./controller/luxecont")
+let watchrouter = require("./controller/watchcont")
+let BrandRouter = require("./controller/brandcont")
 
 
 app.use("/kids",kidRouter) 
